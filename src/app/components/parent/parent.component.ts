@@ -13,7 +13,6 @@ export class ParentComponent {
   sendTask() {
     if (this.task.trim()) {
       this.tasks.push({name: this.task, completed: false});
-      this.message = `Tarea pendiente: ${this.task}`;
       this.task = '';
     }
   }
@@ -24,5 +23,9 @@ export class ParentComponent {
       task.completed = true;
       this.message = `Tarea completada: ${taskName}`;
     }
+  }
+
+  updateMessage() {
+    this.message = `Tarea pendiente: ${this.task}`;
   }
 }
