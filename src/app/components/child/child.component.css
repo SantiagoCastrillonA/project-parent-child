@@ -1,0 +1,21 @@
+.child-component {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Verde más oscuro */
+}

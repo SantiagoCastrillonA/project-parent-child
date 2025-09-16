@@ -1,0 +1,29 @@
+my-todo-app
+├── src
+│   ├── app
+│   │   ├── components
+│   │   │   ├── parent
+│   │   │   │   ├── parent.component.ts
+│   │   │   │   ├── parent.component.html
+│   │   │   │   ├── parent.component.css
+│   │   │   │   └── parent.component.spec.ts
+│   │   │   └── child
+│   │   │       ├── child.component.ts
+│   │   │       ├── child.component.html
+│   │   │       ├── child.component.css
+│   │   │       └── child.component.spec.ts
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.css
+│   │   ├── app.component.spec.ts
+│   │   └── app.module.ts
+│   ├── assets
+│   ├── environments
+│   │   ├── environment.ts
+│   │   └── environment.prod.ts
+│   ├── index.html
+│   └── styles.css
+├── angular.json
+├── package.json
+├── tsconfig.json
+└── README.md

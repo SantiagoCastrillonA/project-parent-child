@@ -1,0 +1,8 @@
+<div>
+  <h2>{{ message }}</h2>
+  <input type="text" [(ngModel)]="task" placeholder="Ingresa una tarea" />
+  <button (click)="sendTask()">Enviar Tarea</button>
+</div>
+<div *ngFor="let taskItem of tasks">
+  <app-child [task]="taskItem" (taskCompleted)="onTaskCompleted(taskItem.name)"></app-child>
+</div>

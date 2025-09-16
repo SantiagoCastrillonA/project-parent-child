@@ -1,0 +1,5 @@
+
+<div>
+  <p [ngClass]="{'completed': task.completed}">Tarea: {{ task.name }}</p>
+  <button (click)="markAsCompleted()" [disabled]="task.completed">Marcar como completada</button>
+</div>
